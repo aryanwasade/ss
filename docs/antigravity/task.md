@@ -1,0 +1,34 @@
+# VC Intelligence Interface + Live Enrichment
+
+- [/] Project Setup <!-- id: 0 -->
+    - [x] Initialize Next.js project with TypeScript and Tailwind CSS <!-- id: 1 -->
+    - [x] Set up Shadcn UI for premium design system <!-- id: 2 -->
+    - [x] Configure project structure (pages/components/lib) <!-- id: 3 -->
+- [x] Core UI Shell <!-- id: 4 -->
+    - [x] Sidebar navigation <!-- id: 5 -->
+    - [x] Global search bar <!-- id: 6 -->
+    - [x] Layout wrapper <!-- id: 7 -->
+- [x] Feature: Companies Discovery (`/companies`) <!-- id: 8 -->
+    - [x] Mock data generation (companies JSON) <!-- id: 9 -->
+    - [x] Companies table with sorting and pagination <!-- id: 10 -->
+    - [x] Filtering system (industry, stage, etc.) <!-- id: 11 -->
+- [x] Feature: Company Profile (`/companies/[id]`) <!-- id: 12 -->
+    - [x] Overview section (Company details) <!-- id: 13 -->
+    - [x] Signals timeline <!-- id: 14 -->
+    - [x] Notes section <!-- id: 15 -->
+    - [x] Save to list functionality <!-- id: 16 -->
+- [x] Feature: Live Enrichment <!-- id: 17 -->
+    - [x] Server-side API route `/api/enrich` <!-- id: 18 -->
+    - [x] "AI Scraper" service (fetch URL + extract fields) <!-- id: 19 -->
+        - [x] Fetch public page content <!-- id: 20 -->
+        - [x] Extract fields (Summary, What they do, Keywords, Signals) <!-- id: 21 -->
+    - [x] UI integration: Enrich button & loading states <!-- id: 22 -->
+    - [x] Display enriched data <!-- id: 23 -->
+- [x] Feature: Lists & Saved Searches <!-- id: 24 -->
+    - [x] Lists creation and management (localStorage) <!-- id: 25 -->
+    - [x] Saved searches (localStorage) <!-- id: 26 -->
+    - [x] Export functionality (CSV/JSON) <!-- id: 27 -->
+- [x] Polish & Deploy <!-- id: 28 -->
+    - [x] Design polish (typography, spacing, animations) <!-- id: 29 -->
+    - [x] SEO basics (metadata) <!-- id: 30 -->
+    - [x] Documentation (README with env setup) <!-- id: 31 -->
